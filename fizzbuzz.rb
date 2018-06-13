@@ -10,5 +10,7 @@ def fizzbuzz(number)
       retVal = "Fizz"
     else if number%5 == 0
       retVal = "Buzz"
+    end
+  end
   return retVal
 end
