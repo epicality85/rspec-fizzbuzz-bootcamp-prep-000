@@ -12,7 +12,7 @@ def fizzbuzz(number)
       retVal = "Buzz"
     end
   else
-    return NIL
+    retVal = NIL
   end
   return retVal
 end
