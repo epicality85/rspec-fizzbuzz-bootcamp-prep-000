@@ -6,9 +6,9 @@ def fizzbuzz(number)
   if number%3 == 0 || number%5 ==0
     if number%3 == 0 && number%5 == 0
       retVal = "FizzBuzz"
-    else if number%3 == 0
+    elsif number%3 == 0
       retVal = "Fizz"
-    else if number%5 == 0
+    elsif number%5 == 0
       retVal = "Buzz"
     end
   end
